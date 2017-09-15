@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.left{float: left;}
+.right{float: right;}
+.wrap:after, .clear:after{
+	content: "";
+	display: block;
+	clear: both;}
+.logo img{
+		background-repeat: no-repeat;
+		width: 55px;
+		height: 55px;
+		position: absolute;
+		top: 57px;
+}
+.info-text h2 {
+	 text-align: center;
+	top: 60px;
+	right: 516px;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+div .items {
+	background: #CFE2F3;
+	float: left;
+	width: 200px;
+    height: 560px;
+     border: 1px solid #000;   
+}
+.items ul {list-style: none;}
+.items li {
+	list-style: none;
+    padding: 10px 15px 15px 8px;
+    border-bottom: 1px  solid #000;
+}
+.items li:last-child {
+    border-bottom: none;
+    height: 206px;
+}
+.items li a {
+	text-decoration: none;
+	color: #000;
+}
+.items li:hover{
+	background: #D9D2E9;
+	border-right: none; 
+}
+.main {
+	background: #D9D2E9;
+	height: 563px;
+}
+ .first-menu p{
+	display:inline-block;
+	width: 31%;
+	text-align: left;
+    padding: 15px 0px 5px 40px;
+	float: left;
+}
+.second-menu p{
+	display: inline-block;
+	width: 31%;
+	text-align: left;
+	float: right;
+	padding: 15px 50px;
+	}
+.columns p {
+    display: inline-block;
+    width: 19%;
+    text-align: left;
+        position: relative;
+    right: 309px;
+    top: 65px;
+ }
+
+.columns-row p {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    padding: 15px 15px;
+    position: relative;
+    right: 286px;
+    top: 52px;
+}
+
+.columns-item p {
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+    padding: 15px 15px;
+    position: relative;
+    bottom: 106px;
+        left: 25px;
+}
+.last-menu p {
+	display: inline-block;
+	width: 47%;
+    text-align: left;
+    padding: 5px 40px;}
+.random-menu p{
+	display: inline-block;
+	width: 20%;
+    text-align: left;
+    padding: 5px 10px;
+        position: relative;
+    bottom: 120px;
+}
+div li.active {
+	background: #D9D2E9;
+	border-right: none; 
+}
+div.items li:hover{
+	background: #D9D2E9;
+	border-right: none; 
+}
+/* */
